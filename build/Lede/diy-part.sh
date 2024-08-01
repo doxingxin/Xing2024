@@ -72,6 +72,8 @@ export auto_kernel="true"
 export rootfs_size="2560"
 export kernel_usage="stable"
 
+#下载AC插件
+git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 
 
 # 修改插件名字
