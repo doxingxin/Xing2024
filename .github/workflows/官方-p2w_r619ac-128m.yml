@@ -27,10 +27,10 @@ on:
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: 'x86_64'
+        default: 'p2w_r619ac-128m'
         type: choice
         options:
-          - '1907-phicomm-k3'
+          - 'p2w_r619ac-128m'
           - 'aarch64'
           - 'phicomm_k3'
           - 'x86_64'
